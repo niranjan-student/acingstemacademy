@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+h1{
+    font-family:"Montserrat";
+    font-size: 72px;
+    color:black;
+    font-weight: bolder;
+    
+}
+
+h2{
+    font-family:"Montserrat";
+    font-size: 42px;
+    /* color:black; */
+    font-weight: bolder;
+}
+
+p{
+    font-family: "Poppins";
+    font-size: 20px;
+    align-content: center;
+    /* padding: 10%; */
+    align-self: center;
+    /* width: 50%; */
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: black;
+}
+nav ul {
+    list-style: none;
+    list-style-image: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    width:100%;
+    /* border-bottom: 4px solid crimson; */
+    /* border-bottom: 100px; */
+    /* margin-bottom: 5%; */
+    
+}
+nav > p{
+    background-color: black;
+    color: white;
+    float: left;
+    text-align: center;
+    border-bottom: 6px solid black;
+    padding: 1%;
+    width: 20%;
+    box-sizing: border-box;
+
+}
+
+nav > p:hover{
+    border-bottom-color: crimson;
+}
+
+nav > p > a:visited{
+    color: white;
+    /* background-color: ; */
+}
+nav > p > a{
+    color: white;
+}
+.row{
+    /* justify-items: center; */
+    text-align: center;
+    max-width: 100%;
+}
+.pad{
+    padding-top: 2%;
+}
+footer{
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding-top: 5%;
+}
+img{
+    max-width: 100%;
+}
+.col{
+    align-items: center;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.col p{
+    padding: 10%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+div.accordion{
+    margin-top: 2%;
+    width: 50%;
+    float:none;
+    justify-self: center;
+    margin-left: 25%;
+}
+.u{
+    text-decoration: underline crimson;
+}
+.col img{
+    width:95%;
+    padding:2.5%;
+}
+.card-title{
+    font-size: 32px;
+}
+.arrow:hover{
+    background-color:black;
+    opacity: 40%;
+}
+.carousel{
+    width:50%;
+    margin-left: 25%;
+}
+.bottom{
+    padding-bottom: 2%;
+}
+
+p[id="50"]{
+    width:50;
+    
+}
+.left{
+    float:left
+}
+.right{
+    float:right;
+}
+
+form{
+    max-width: 50%;
+    margin-left: 25%;
+}
+label,input{
+    max-width:100%;
+    margin:1% 5% 1% 5%;
+    font-family: "Poppins";
+    font-size: 24px;
+    padding:0.5%;
+    box-sizing: border-box;
+    height: 10%;
+    border:none;
+} 
+form > button{
+    max-width:100%;
+    font-family: "Poppins";
+    font-size: 24px;
+    padding: 1% 5% 1% 5%;
+    box-sizing: border-box;
+    margin-left:5%;
+    margin-bottom: 2%;
+    height: 10%;
+    border:none;
+}
+
+input{
+    border: solid black 2px;
+}
